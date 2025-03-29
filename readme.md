@@ -26,4 +26,4 @@
 ## Key features
 
 1. added pagination for post
-2. upload to both s3 if s3 credentials is provided and S3_UPLOAD_ENABLED is set to true in .env or post will get upload to the backend server in src/uploads
+2. upload to both s3 if s3 credentials are provided and S3_UPLOAD_ENABLED is set to true in .env or post will get upload to the backend server in src/uploads
