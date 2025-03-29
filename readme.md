@@ -1,5 +1,7 @@
 # Frontend
 
+1. Rename .env.copy to .env and add the env variable
+
 ```bash
  cd frontend
  npm i
@@ -14,6 +16,8 @@
 ---
 
 # backend
+
+1. Rename .env.copy to .env and add the env variable
 
 ```bash
  cd backend

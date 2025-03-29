@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 import axios, { AxiosError } from 'axios';
 import { showNotification } from './notificationSlice';
 
-axios.defaults.baseURL = 'http://localhost:7777/api/v1';
+axios.defaults.baseURL = `${import.meta.env.VITE_API_BASE_URL}/api/v1`;
 
 export interface Post {
   id: string;
